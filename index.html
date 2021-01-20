@@ -1,7 +1,54 @@
 <!DOCTYPE html>
 <html>
 <head>
+<div id="header" class="new-header">
+        <div class="hed-1 main-container">
+            <div class="fix-part">
+                <div class="logo">
+                    <a id="lnkMSite" href="/">
+                        <img src="/images/logo.png" alt="Cricket Fantasy League">
+                    </a>
+                </div>
+                
 
+    <input type="hidden" id="hdnUserName" value="">
+    <input type="hidden" id="hdnUserEmail" value="">
+    <input type="hidden" id="hdnUserDisplayName" value="">
+    <input type="hidden" id="hdnIsChall" value="0">
+    <div id="divBeforeLogin" class="hed-right2" style="width: 530px;">
+        <table width="100%" border="0" cellspacing="0" cellpadding="0">
+            <tbody><tr>
+                <td>
+                    <table width="230" border="0" cellspacing="0" cellpadding="0" style="margin-top: -5px; float: left;">
+                        <tbody><tr>
+                            <td>
+                                <input type="text" id="txtUserName" class="textbox" placeholder="Enter Email">
+                            </td>
+                            <td>
+                                <input type="password" id="txtPassword" class="textbox" placeholder="Enter Password">
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <div class="hed-login-text2" style="margin-top: 3px;">
+                                                       </div>
+                            </td>
+                        </tr>
+                    </tbody></table>
+                    <input type="button" id="btnLogin" class="button" value="Login" style="padding: 6px 0px; margin-right: 5px; margin-top: 12px; width: 65px;" onclick="OnLogin()">
+                      <div id="btnGoogleLogin" class="g-login" style="margin-top: 12px; margin-right: 5px;">
+                        <img src="/images/g-login.png" alt="g-login" width="67" height="26">
+                    </div>
+                      <img src="/images/fb-login.jpg" alt="fb-login" width="67" height="26">
+                    </a>
+                               </td>
+            </tr>
+        </tbody></table>
+    </div>
+
+            </div>
+        </div>
+    </div>
 {
     "home_team_id" : 1,
     "opp_team_id" : 2
